@@ -1,6 +1,15 @@
 # Discord-Invites-Checker
 Get all the information about a server and if possible the infos about the user who created the invite
 
+Work with all discord invites:
+https://discord.com/
+https://discord.gg/
+https://discord.com/invite/
+https://discord.gg/invite/
+.gg/
+.com/
+invite/
+
 before use it install all the libraries 
 ~pip install -r requirements.txt
 
