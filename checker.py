@@ -1,8 +1,5 @@
 import os
-import re
-import json
-import requests
-from urllib.request import Request, urlopen
+import json	
 from requests import get
 from ab5 import hgratient
 
