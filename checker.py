@@ -87,7 +87,8 @@ def checker(value):
 	print(hgratient("			type info for more infos or exit to close",start_color,end_color),end ="")
 	inputvar = input("					")
 	if inputvar == "info":
-		file = open(f"C:\\Users\\Asrock\\Desktop\\tokengrabber\\{servername} infos.txt", "a")
+		directory_path = os.getcwd()
+		file = open(f"{directory_path}\\{servername} infos.txt", "a")
 		file.seek(0)
 		file.truncate()
 		file.write("https://github.com/Blast3x - https://github.com/Blast3x - https://github.com/Blast3x - https://github.com/Blast3x\n")
